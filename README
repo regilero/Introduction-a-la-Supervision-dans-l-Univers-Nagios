@@ -1,0 +1,73 @@
+*******************************************************
+* INTRODUCTION À LA SUPERVISION DANS L'UNIVERS NAGIOS *
+*******************************************************
+
+Extraits tirés du document:
+
+3. LICENCE
+===========
+
+Ce(tte) oeuvre est mise à disposition selon les termes de la Licence Creative
+Commons Paternité - Pas de Modification 2.0 France.
+Vous pouvez contribuer à ce document nous signalant les erreurs, en apportant
+vos remarques, ajouts et commentaires.
+Les dessins et schémas sont normalement disponibles avec les sources et
+utilisables dans le logiciel dia.
+
+Les fichiers source sont disponibles sur :
+https://github.com/regilero/Introduction-a-la-Supervision-dans-l-Univers-Nagios
+
+© Makina Corpus
+Retrouvez les livres blancs Makina Corpus et les contributions diverses sur 
+http://makina-corpus.com et http://makina-corpus.org.
+
+4. RÉUTILISATION DU CONTENU DE CE LIVRE
+========================================
+
+Ce livre est soumis à la licence détaillée dans le chapitre 3.Licence.
+Cependant, afin de pouvoir réutiliser ce livre blanc dans vos démarches
+commerciales, nous autorisons :
+ * la suppression du chapitre 2.Makina Corpus et du chapitre 4.Réutilisation du
+   contenu de ce livre
+ * l'intégration de l'intégralité du livre blanc (hormis le chapitre 
+   2.Makina Corpus et 4.Réutilisation du contenu de ce livre ) dans un modèle de
+   document différent de celui de Makina Corpus.
+Il est interdit de retirer les références aux auteurs et à Makina Corpus du 
+chapitre 3.Licence, ou de modifier le contenu livre blanc ( hors retrait du 
+chapitre 2.Makina Corpus et chapitre 4.Réutilisation du contenu de ce livre).
+
+5. AUTEUR
+==========
+
+Régis Leroy (aka regilero)<regis.leroy@makina-corpus.com>
+        Administrateur Système, développeur web, formateur Nagios et Centreon
+        (entre autres) depuis plusieurs années. Son domaine d'intervention
+        principal, les architectures web complexes, l'a amené à former de
+        nombreuses personnes aux outils de supervision libres.
+
+6. OBJECTIFS DE CE LIVRE BLANC
+===============================
+
+Nagios est un logiciel Open Source de Supervision qui existe depuis 1999. Depuis
+quelques années de nombreuses applications complémentaires ou parallèles sont 
+venues se greffer à l'univers de la supervision Nagios. On pourra citer par 
+exemple Centreon, Shinken, Icinga, Nagios XI, Mk_multisite, etc. La communauté
+Nagios est en effervescence, les projets se multiplient. Certains sont 
+complémentaires, d'autres concurrents. Les grands principes de la supervision
+régis par Nagios sont cependant toujours présents au coeur de tous ces produits.
+
+En tant que formateur Nagios, je croise très souvent des équipes chargées de la 
+supervision réseau, la principale difficulté que rencontrent ces équipes est 
+très souvent l'absence de vision globale du fonctionnement de la supervision 
+avec Nagios et des différentes possibilités qu'offre l'outil.
+Le but de ce document est de fournir en quelques pages les bases théoriques du
+fonctionnement de la supervision avec les outils du monde Nagios, ce qui
+comprend :
+ * le vocabulaire parfois mystérieux ;
+ * l'importance de la topologie ;
+ * le fonctionnement des sondes ;
+ * et une vision d'ensemble des possibilités infinies qu'offre cet outil.
+Une fois ces bases acquises, il est beaucoup plus simple de comprendre les
+discussions des forums, les problèmes auxquels nous sommes parfois confrontés,
+ou de savoir orienter ses questions afin d'obtenir de l'aide.
+
